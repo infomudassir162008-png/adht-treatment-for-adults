@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>ADHD Treatment & Testing in Cleveland | Expert Care for Adults & Children</title>
+    <meta name="description" content="Comprehensive ADHD testing, diagnosis, and treatment in Cleveland. Trusted ADHD specialists offering personalized care for adults and children. Evidence-based approaches.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: #f5f7fb;
+            color: #1a2c3e;
+            line-height: 1.55;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            background: linear-gradient(135deg, #1A3F5C, #2B6A8F);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #1a4b6e;
+            margin: 1.8rem 0 1rem 0;
+            border-left: 5px solid #3498db;
+            padding-left: 1.2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: #2c5a7a;
+            margin: 1.5rem 0 0.75rem 0;
+        }
+
+        .lead {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            background: #eef2f9;
+            padding: 1.2rem 1.8rem;
+            border-radius: 28px;
+            margin: 1.5rem 0;
+            border-left: 4px solid #3498db;
+            font-weight: 500;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-weight: 400;
+            color: #2d3e50;
+        }
+
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.8rem;
+            margin: 2rem 0;
+        }
+
+        .info-card {
+            background: white;
+            border-radius: 28px;
+            padding: 1.6rem 1.8rem;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.05);
+            flex: 1 1 280px;
+            transition: all 0.25s ease;
+            border: 1px solid #e9edf2;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 30px -12px rgba(0,0,0,0.12);
+        }
+
+        .info-card h3 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .badge {
+            background: #e7f0fa;
+            color: #1f6392;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.7rem;
+            border-radius: 40px;
+            display: inline-block;
+            margin-bottom: 0.8rem;
+        }
+
+        .faq-section {
+            background: white;
+            border-radius: 36px;
+            padding: 2rem 2rem 1.5rem;
+            margin: 2.5rem 0;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+            border: 1px solid #eef2f8;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1.2rem 0;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #1f4e6e;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.2s;
+        }
+
+        .faq-question:hover {
+            color: #2c7cb6;
+        }
+
+        .faq-answer {
+            margin-top: 0.8rem;
+            color: #3a546d;
+            padding-right: 1rem;
+            display: none;
+        }
+
+        .faq-answer.active {
+            display: block;
+        }
+
+        .faq-icon {
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+
+        .btn-style {
+            display: inline-block;
+            background: #1f6392;
+            color: white;
+            font-weight: 600;
+            padding: 0.6rem 1.4rem;
+            border-radius: 60px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: 0.2s;
+        }
+
+        .btn-style:hover {
+            background: #0f4b6e;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #f9f3e6 0%, #f9f3e6 40%, transparent 80%);
+            padding: 0 0.2rem;
+            font-weight: 500;
+        }
+
+        .keyword-anchor {
+            font-weight: 600;
+            color: #1f6e8c;
+            text-decoration: underline;
+            text-decoration-thickness: 1.5px;
+            text-underline-offset: 4px;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            padding-top: 1.8rem;
+            border-top: 1px solid #dcf0fa;
+            font-size: 0.85rem;
+            color: #6c8eae;
+        }
+
+        @media (max-width: 680px) {
+            .container {
+                padding: 1.2rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- article start -->
+    <h1>Attention Deficit Hyperactivity Treatment: Evidence-Based Care for Adults & Children</h1>
+    <div class="lead">
+        🧠 Personalized ADHD treatment in Cleveland — from accurate diagnosis to long-term management. Whether for your child or yourself, regain focus and thrive with expert support.
+    </div>
+
+    <p>Attention Deficit Hyperactivity Disorder (ADHD) is more than occasional distraction or restlessness. It is a neurodevelopmental condition that affects executive function, emotional regulation, and impulse control. For families and adults alike, finding the right path begins with proper evaluation. At our Cleveland-based practice, we specialize in comprehensive <strong class="keyword-anchor">ADHD diagnosis near me adult</strong> services, ensuring that adults who have struggled for years finally receive clarity. Many individuals search for “<strong class="keyword-anchor">ADHD testing at Cleveland Clinic</strong>” as a benchmark, but we are proud to offer a similarly rigorous, personalized approach with shorter wait times and compassionate, continuous care.</p>
+
+    <p>ADHD manifests differently across ages: children may show hyperactivity and difficulty at school, while adults often experience internal restlessness, chronic procrastination, and relationship strain. Accurate diagnosis using validated clinical guidelines is the cornerstone of effective treatment. Our integrated model combines behavioral therapy, medication management (when appropriate), and lifestyle coaching — all tailored to the individual. If you have been exploring <strong>ADHD testing near me</strong> or reliable <strong>ADHD child testing near me</strong>, you’ve landed in the right place.</p>
+
+    <div class="card-grid">
+        <div class="info-card">
+            <div class="badge">🔍 Precision First</div>
+            <h3>📋 ADHD assessment Cleveland</h3>
+            <p>We use structured diagnostic interviews, behavior rating scales, and cognitive screening to differentiate ADHD from anxiety, learning disorders, or mood conditions. Many adults come to us after previous misdiagnoses.</p>
+        </div>
+        <div class="info-card">
+            <div class="badge">👩‍⚕️ For All Ages</div>
+            <h3>🧒 Adult & child specialists</h3>
+            <p>From preschool behavioral parent training to executive function coaching for working professionals. Our <strong>adult ADHD specialist in Ohio</strong> team ensures seamless transitions from pediatric to adult care.</p>
+        </div>
+        <div class="info-card">
+            <div class="badge">📈 Long-term results</div>
+            <h3>🏆 Best ADHD clinic in Cleveland</h3>
+            <p>Recognized for evidence-based plans, monthly follow-ups, and regular adjustments. We monitor symptom changes, side effects, and functional improvements to help you succeed at work, school, and home.</p>
+        </div>
+    </div>
+
+    <h2>Understanding ADHD: Beyond Myths and Stereotypes</h2>
+    <p>Attention Deficit Hyperactivity Disorder is a lifelong neurobiological condition. In children, the hallmark signs include daydreaming, fidgeting, difficulty waiting turns, and making careless mistakes. But for adults, symptoms often transform into chronic lateness, low frustration tolerance, and challenges with organizing tasks. When left untreated, ADHD can contribute to anxiety, depression, and underachievement. That’s why early and accurate <strong>ADHD testing Cleveland</strong> is life-changing. Our clinic provides in-depth <strong>ADHD testing and treatment in Cleveland</strong> that goes beyond checklists — we explore real-world functional struggles and strengths.</p>
+
+    <p>Many people ask: what’s the difference between a typical distracted personality and clinical ADHD? The answer lies in pervasiveness and impairment. If lack of focus interferes with multiple settings (home, career, relationships) and causes significant distress, it’s time for a professional evaluation. According to the American Academy of Pediatrics, behavioral therapy is the first-line for preschool children (ages 4–5), often through parent training. For older children and most adults, a combination of medication and <strong>ADHD therapy Cleveland</strong> yields the strongest outcomes. Our specialists are experienced <strong>ADHD therapist Cleveland</strong> providers who also coordinate with primary care physicians for integrated care.</p>
+
+    <h2>Why Choose Our ADHD Clinic Over “ADHD Cleveland Clinic” Options?</h2>
+    <p>When Ohio residents search for <strong>ADHD Cleveland Clinic</strong> or <strong>Cleveland Clinic ADHD center</strong> resources, they often encounter long waitlists or fragmented services. While those institutions offer excellent medicine, we provide a more accessible, relationship-driven alternative. Our patients benefit from direct access to an <strong>ADHD specialist near me</strong> within days, not months. We also emphasize holistic monitoring: sleep hygiene, nutrition, exercise, and stress management are part of every treatment plan. We are proud to be a trusted <strong>ADHD clinic</strong> where you receive complete care under one roof — from initial ADHD evaluation Cleveland to ongoing medication follow-ups and skills groups.</p>
+
+    <p>Families frequently arrive after searching “ADHD treatment centers” only to face impersonal or rushed consultations. In contrast, our 60-minute initial assessments dig deep into developmental history, school reports, and workplace challenges. For adults who suspect they’ve been living with undiagnosed ADHD, we offer <strong>adult ADHD testing Cleveland</strong> that covers both retrospective childhood symptoms and current adult-specific criteria. Our goal is to empower you, not just label you. Let’s walk through the typical treatment roadmap:</p>
+
+    <h3>Phase 1: Comprehensive Diagnostic Clarity</h3>
+    <p>We begin with standardized rating scales, clinical interview, and collateral information (when possible). If you’re an adult seeking <strong>ADHD diagnosis near me adult</strong> services, we assess executive dysfunction, emotional dysregulation, and time blindness. Children receive school observations and teacher input. Only after confirming an ADHD diagnosis Cleveland do we craft a plan. Many individuals previously searched for “ADHD testing at Cleveland Clinic” but found more personalized precision here.</p>
+
+    <h3>Phase 2: Customized Multimodal Treatment</h3>
+    <p>Medication is often effective but not always necessary. For mild to moderate cases or for those who prefer non-pharmacologic routes, we offer cognitive behavioral therapy (CBT), organizational skills training, and mindfulness-based strategies. Our <strong>ADHD therapist Cleveland</strong> experts also support co-occurring anxiety or low self-esteem. For families who need structured <strong>ADHD therapy Cleveland</strong>, we include parent coaching and school advocacy. Meanwhile, the medical team (including psychiatric nurse practitioners specialized in ADHD) prescribes and monitors stimulant/non-stimulant options with careful attention to side effects and benefits.</p>
+
+    <h3>Phase 3: Maintenance & Lifestyle Optimization</h3>
+    <p>We don’t disappear after a prescription. Monthly check-ins, group support sessions, and digital tracking tools ensure ongoing progress. Patients report that working with an <strong>adult ADHD specialist in Ohio</strong> over months and years helps them sustain healthy routines, better relationships, and career growth. We also empower you to become your own advocate, understanding how sleep, exercise, and diet modulate ADHD symptoms.</p>
+
+    <div class="lead">
+        ✅ "I no longer need to search endlessly for ADHD treatment centers — the expertise and warmth here gave me my focus back." — Former patient, Cleveland
+    </div>
+
+    <h2>Addressing Frequently Asked Questions (FAQs)</h2>
+    <div class="faq-section">
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>🔹 What are the most common ADHD symptoms in adults vs. children?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>In children, common symptoms include hyperactivity (constant fidgeting, running/climbing inappropriately), excessive talking, difficulty waiting turns, and forgetfulness. For adults, symptoms shift: internal restlessness, chronic procrastination, difficulty completing tasks, emotional volatility, poor time management, and trouble with organization. Proper <strong>ADHD assessment Cleveland</strong> identifies symptom patterns across the lifespan.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>🔹 Is ADHD treatment effective? Can people with ADHD live successful lives?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Absolutely. With structured <strong>ADHD therapy Cleveland</strong>, appropriate medication, coaching, and environmental accommodations, people with ADHD thrive as entrepreneurs, artists, physicians, engineers, and more. The key is tailored treatment — our clinic specializes in building on strengths while managing challenges. Many high-achieving adults discover their ADHD late and flourish after treatment.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>🔹 How do I know if I need ADHD testing — and what’s included?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>If you or your child consistently experience inattention, impulsivity, or disorganization that impairs school, work, or relationships, professional <strong>ADHD testing Cleveland</strong> is recommended. Our evaluation includes clinical interviews, validated rating scales (e.g., CAARS, Conners), cognitive screening for attention/working memory, and review of developmental history. For adults, we also assess for masking strategies. You’ll receive a detailed diagnostic report and personalized recommendations.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>🔹 What is the “24-hour rule” in ADHD behavioral management?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>The 24-hour rule suggests that consequences or reinforcements for a specific behavior should occur within 24 hours to be effective — especially for children with ADHD. Immediate or same-day feedback helps reinforce learning and reduces power struggles. Families engaged in <strong>ADHD child testing near me</strong> often learn this technique during parent training to improve consistency at home.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>🔹 Is the “Cleveland Clinic ADHD center” the only high-quality option in Ohio?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>No. While <strong>ADHD testing at Cleveland Clinic</strong> is excellent, many families and adults prefer our smaller, specialized <strong>ADHD clinic</strong> for personalized continuity, faster access to appointments, and cohesive therapy+medication management under one roof. We collaborate with your existing providers and offer flexible telehealth across Ohio. You deserve a team that listens and adapts — without months of waiting.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>🔹 At what age does ADHD become most challenging?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Early childhood (4–7 years) can be challenging due to school demands and behavioral expectations. Another peak is during adolescence, when executive function demands increase. Many adults also find that new responsibilities (parenthood, promotions) unmask previously compensated ADHD. That’s why <strong>ADHD testing and treatment in Cleveland</strong> is valuable at any stage — we offer targeted support across the lifespan.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>🔹 Do you accept insurance? How to schedule an ADHD evaluation?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>We work with most major insurance plans and offer transparent self-pay rates. To start, simply call our Cleveland clinic or use our online request form. We’ll guide you through the intake process, matching you with the right <strong>ADHD specialist near me</strong>, whether for adult ADHD or child-focused care. Don’t let untreated ADHD limit your potential — our team is here to help.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Take the First Step: ADHD Diagnosis & Testing Tailored to You</h2>
+    <p>You don’t need to keep searching “ADHD treatment centers” without clarity. At our clinic, we combine world-class clinical standards with warmth and respect. Whether you are a parent seeking <strong>ADHD child testing near me</strong> or a professional finally seeking <strong>adult ADHD testing Cleveland</strong>, we provide a structured, non-judgmental space. Our patients often come to us after comparing options such as the <strong>Cleveland Clinic ADHD center</strong>, and they stay because of our personalized continuity and focus on real-world results. Don’t let another year slip by with untreated ADHD — schedule an <strong>ADHD assessment Cleveland</strong> today.</p>
+    <p style="margin-top: 1rem;"><a href="#" class="btn-style" style="background:#1f6392;">📞 Request Consultation →</a> <span style="margin-left: 1rem; font-size: 0.9rem;">📍 Serving greater Cleveland and Ohio via telehealth.</span></p>
+
+    <footer>
+        <p>© Cleveland ADHD Specialists — Evidence-based care for attention & hyperactivity. This information is for educational purposes. Always consult a physician for medical advice. <br>References: ADHD diagnostic criteria (DSM-5-TR), American Academy of Pediatrics guidelines.</p>
+    </footer>
+</div>
+
+<script>
+    // FAQ accordion functionality
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            const iconSpan = question.querySelector('.faq-icon');
+            if (answer.classList.contains('active')) {
+                answer.classList.remove('active');
+                if (iconSpan) iconSpan.textContent = '+';
+            } else {
+                answer.classList.add('active');
+                if (iconSpan) iconSpan.textContent = '−';
+            }
+        });
+    });
+    // optional: open first FAQ by default for better UX
+    const firstAnswer = document.querySelector('.faq-answer');
+    if (firstAnswer) {
+        firstAnswer.classList.add('active');
+        const firstIcon = document.querySelector('.faq-question .faq-icon');
+        if (firstIcon) firstIcon.textContent = '−';
+    }
+</script>
+</body>
+</html>
